@@ -1,7 +1,6 @@
 """Main runner file the runs the store"""
 
 import products
-import clients 
 
 def print_menu():
     """Prints main menu"""
@@ -46,7 +45,7 @@ def process_user_input(choice):
         prod_obj = products.Product()
         prod_obj.list_products()
         return False 
-   elif choice == '3':
+    elif choice == '3':
         # User exits program
         print 'Goodbye!' 
         return True 
