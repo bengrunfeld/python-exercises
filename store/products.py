@@ -1,7 +1,6 @@
 """Sets up Product Classes and actions"""
 
 import json
-import pickle
 
 class Product:
     """Create and list products"""
