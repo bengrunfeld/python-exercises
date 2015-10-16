@@ -38,5 +38,11 @@ class Product:
             new_res = res.rstrip('\n')
             data.append(json.loads(new_res))
 
+        print '========================'
+        print '========================'
+
         for d in data:
             print d['name'], d['price'], d['description']
+
+        print '========================'
+        print '========================'
